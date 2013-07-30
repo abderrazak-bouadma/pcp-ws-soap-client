@@ -1,4 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="documentTarget" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:ns1="http://sei.ws.fast.cdc.com/" name="CXFDocumentServiceService" targetNamespace="documentTarget">
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="documentTarget"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:ns1="http://sei.ws.fast.cdc.com/" name="CXFDocumentServiceService"
+                  targetNamespace="documentTarget">
   <wsdl:import location="http://parapheur.cdcfast.lan:8080/parapheur-soap/soap/v1/Documents?wsdl=DocumentService.wsdl" namespace="http://sei.ws.fast.cdc.com/">
     </wsdl:import>
   <wsdl:binding name="CXFDocumentServiceServiceSoapBinding" type="ns1:DocumentService">
