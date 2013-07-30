@@ -1,6 +1,7 @@
 package example;
 
 
+import com.DocumentService;
 import org.apache.cxf.wsn.jaxws.GetResourcePropertyService;
 
 /**
@@ -12,8 +13,7 @@ import org.apache.cxf.wsn.jaxws.GetResourcePropertyService;
  */
 public class HelloWorldClient {
   public static void main(String[] argv) {
-      com.DocumentService service = new GetResourcePropertyService().getPort();
-      //invoke business method
-      service.renew();
+      DocumentService service = new GetResourcePropertyService().getPort(DocumentService.class);
+      service.download("");
   }
 }
