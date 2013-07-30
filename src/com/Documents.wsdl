@@ -28,7 +28,7 @@
   </wsdl:binding>
   <wsdl:service name="CXFDocumentServiceService">
     <wsdl:port binding="tns:CXFDocumentServiceServiceSoapBinding" name="DocumentPort">
-      <soap:address location="http://parapheur.cdcfast.lan:8080/parapheur-soap/soap/v1/Documents"/>
+      <soap:address location="https://proxy.cdcfast.lan/parapheur-soap/soap/v1/Documents"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

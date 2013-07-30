@@ -44,7 +44,7 @@ public final class DocumentService_DocumentPort_Client {
         
         {
         System.out.println("Invoking download...");
-        java.lang.String _download_documentId = "";
+        java.lang.String _download_documentId = "9b0fba9b-1111-46a5-892c-1deb9f91e61b";
         com.DocumentContentVO _download__return = port.download(_download_documentId);
         System.out.println("download.result=" + _download__return);
 
