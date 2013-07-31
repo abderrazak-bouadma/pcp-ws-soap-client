@@ -3,7 +3,7 @@
                   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
                   xmlns:ns1="http://sei.ws.fast.cdc.com/" name="CXFDocumentServiceService"
                   targetNamespace="documentTarget">
-  <wsdl:import location="http://parapheur.cdcfast.lan:8080/parapheur-soap/soap/v1/Documents?wsdl=DocumentService.wsdl" namespace="http://sei.ws.fast.cdc.com/">
+  <wsdl:import location="http://localhost/parapheur-soap/soap/v1/Documents?wsdl=DocumentService.wsdl" namespace="http://sei.ws.fast.cdc.com/">
     </wsdl:import>
   <wsdl:binding name="CXFDocumentServiceServiceSoapBinding" type="ns1:DocumentService">
     <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
@@ -28,7 +28,7 @@
   </wsdl:binding>
   <wsdl:service name="CXFDocumentServiceService">
     <wsdl:port binding="tns:CXFDocumentServiceServiceSoapBinding" name="DocumentPort">
-      <soap:address location="https://proxy.cdcfast.lan/parapheur-soap/soap/v1/Documents"/>
+      <soap:address location="https://localhost/parapheur-soap/soap/v1/Documents"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
