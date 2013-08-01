@@ -14,6 +14,6 @@ import org.apache.cxf.wsn.jaxws.GetResourcePropertyService;
 public class HelloWorldClient {
   public static void main(String[] argv) {
       DocumentService service = new GetResourcePropertyService().getPort(DocumentService.class);
-      service.download("");
+      service.download("d121df7d-fa0e-4b36-a9c1-6541fe1104d8");
   }
 }

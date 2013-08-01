@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd842f5f-5aa0-470d-a226-e97845378668" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="bd842f5f-5aa0-470d-a226-e97845378668" name="Default" comment=".added CXF SSL conf">
+      <change type="MOVED" beforePath="C:\job\Projects\pcp-ws-soap-client\src\com\DocumentService_DocumentPort_Client.java" afterPath="$PROJECT_DIR$/src/com/DocumentServiceClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/HelloWorldClient.java" afterPath="$PROJECT_DIR$/src/example/HelloWorldClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pcp-ws-soap-client.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375280325860" ignored="false" />
-    <file path="/Dummy.txt" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375280425814" ignored="false" />
+    <file path="/fragment.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375352125953" ignored="false" />
+    <file path="/Dummy.txt" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375347436357" ignored="false" />
     <file path="/HelloWorldClient.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375187513391" ignored="false" />
     <file path="/CXFDocumentServiceService.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375189133147" ignored="false" />
-    <file path="/Documents.wsdl" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375274899395" ignored="false" />
+    <file path="/Documents.wsdl" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375352075658" ignored="false" />
     <file path="/cxf.xml" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375264138403" ignored="false" />
     <file path="/a.dummy" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375276226079" ignored="false" />
     <file path="/DocumentService_DocumentPort_Client.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375276286032" ignored="false" />
+    <file path="/InstallCert.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375287130698" ignored="false" />
+    <file path="/DocumentServiceClient.java" changelist="bd842f5f-5aa0-470d-a226-e97845378668" time="1375351478279" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,26 @@
     <favorites_list name="pcp-ws-soap-client" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DocumentServiceClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/DocumentServiceClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="33" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-10.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Documents.wsdl" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Documents.wsdl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="20" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.9492386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -91,12 +114,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/example/HelloWorldClient.java" />
-        <option value="$PROJECT_DIR$/src/com/CXFDocumentServiceService.java" />
         <option value="$PROJECT_DIR$/src/cxf.xml" />
-        <option value="$PROJECT_DIR$/src/com/Documents.wsdl" />
-        <option value="$PROJECT_DIR$/src/com/DocumentService_DocumentPort_Client.java" />
         <option value="$PROJECT_DIR$/src/utils/InstallCert.java" />
+        <option value="$PROJECT_DIR$/src/example/HelloWorldClient.java" />
+        <option value="$PROJECT_DIR$/src/com/DocumentService_DocumentPort_Client.java" />
+        <option value="$PROJECT_DIR$/src/com/CXFDocumentServiceService.java" />
+        <option value="$PROJECT_DIR$/src/com/Documents.wsdl" />
+        <option value="$PROJECT_DIR$/src/com/DocumentServiceClient.java" />
       </list>
     </option>
   </component>
@@ -132,6 +156,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,74 +180,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pcp-ws-soap-client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +190,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="http.proxy" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -250,7 +210,7 @@
       <recent name="C:\job\Projects\pcp-ws-soap-client\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DocumentService_DocumentPort_Client">
+  <component name="RunManager" selected="Application.document-soap-client">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -359,10 +319,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DocumentService_DocumentPort_Client" type="Application" factoryName="Application">
+    <configuration default="false" name="document-soap-client" type="Application" factoryName="Application" singleton="true" show_console_on_std_out="true" show_console_on_std_err="true">
+      <output_file path="$PROJECT_DIR$/../../ws.log" is_save="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.DocumentService_DocumentPort_Client" />
-      <option name="VM_PARAMETERS" value="-Dhttps.proxyHost=&quot;10.0.1.1&quot; -Dhttps.proxyPort=&quot;3128&quot; -Dhttp.nonProxyHosts=&quot;192.168.*|10.0.*|localhost&quot; -Djavax.net.debug=ssl -Djavax.net.ssl.keyStoreType=pkcs12 -Djavax.net.ssl.keyStore=$PROJECT_DIR$/../../smaville.p12 -Djavax.net.ssl.keyStorePassword=fastpwd -Djavax.net.ssl.trustStore=&quot;C:/Program Files/Java/jre6/lib/security/cacerts&quot; -Djavax.net.ssl.trustStorePassword=changeit" />
+      <option name="MAIN_CLASS_NAME" value="com.DocumentServiceClient" />
+      <option name="VM_PARAMETERS" value="-Dhttps.proxyHost=&quot;10.0.1.1&quot; -Dhttps.proxyPort=&quot;3128&quot; -Dhttp.nonProxyHosts=&quot;192.168.*|10.0.*|localhost&quot; -Djavax.net.debug=ssl -Djavax.net.ssl.keyStoreType=pkcs12 -Djavax.net.ssl.keyStore=$PROJECT_DIR$/../../CharlesParis-1361799255.p12 -Djavax.net.ssl.keyStorePassword=fastpwd -Djavax.net.ssl.trustStore=&quot;C:/Program Files/Java/jre6/lib/security/cacerts&quot; -Djavax.net.ssl.trustStorePassword=changeit" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -382,9 +343,27 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
+    <configuration default="false" name="InstallCert" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="utils.InstallCert" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="localhost:443" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pcp-ws-soap-client" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloWorldClient" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DocumentService_DocumentPort_Client" />
+      <item index="1" class="java.lang.String" itemvalue="Application.document-soap-client" />
+      <item index="2" class="java.lang.String" itemvalue="Application.InstallCert" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -435,7 +414,11 @@
       <created>1375280377449</created>
       <updated>1375280377449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=".added CXF SSL conf">
+      <created>1375280436730</created>
+      <updated>1375280436730</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -445,14 +428,16 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39806867" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3605292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -460,13 +445,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19263607" sideWeight="0.60088205" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44873208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1670224" sideWeight="0.6802646" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31973538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -538,124 +521,117 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pcp-ws-soap-client.iml">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/geronimo-jaxws_2.2_spec-1.1.jar!/javax/xml/ws/Service.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_35/src.zip!/java/net/URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="411" column="11" selection-start="16600" selection-end="16600" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DocumentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="16" selection-start="1395" selection-end="1399" vertical-scroll-proportion="0.5969828">
+        <state line="9" column="14" selection-start="235" selection-end="235" vertical-scroll-proportion="0.25612053">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Download.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/common/util/PackageUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="808" selection-end="808" vertical-scroll-proportion="-0.21676892">
+        <state line="13" column="35" selection-start="441" selection-end="441" vertical-scroll-proportion="-7.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DownloadResponse.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/common/i18n/BundleUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="876" selection-end="876" vertical-scroll-proportion="-0.14723927">
+        <state line="15" column="43" selection-start="575" selection-end="575" vertical-scroll-proportion="-9.52">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ObjectFactory.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/common/logging/LogUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="753" selection-end="753" vertical-scroll-proportion="0.034764826">
+        <state line="21" column="43" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-7.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Sign.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/common/classloader/ClassLoaderUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="905" selection-end="905" vertical-scroll-proportion="0.33333334">
+        <state line="25" column="38" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-13.52">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DataFileVO.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/jaxws22/spi/ProviderImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="13" selection-start="941" selection-end="941" vertical-scroll-proportion="0.59713703">
+        <state line="7" column="11" selection-start="241" selection-end="241" vertical-scroll-proportion="-4.08">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DeleteResponse.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/common/util/SystemPropertyAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="687" selection-end="687" vertical-scroll-proportion="0.65235174">
+        <state line="21" column="35" selection-start="871" selection-end="871" vertical-scroll-proportion="-13.6">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DocumentContentVO.java">
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/BusFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="13" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.33333334">
+        <state line="34" column="51" selection-start="1630" selection-end="1630" vertical-scroll-proportion="-7.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/_abo/apache-cxf-2.7.5/lib/cxf-2.7.5.jar!/org/apache/cxf/jaxws/spi/ProviderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="44" selection-start="591" selection-end="591" vertical-scroll-proportion="0.33272395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ws.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/HelloWorldClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="466" selection-end="466" vertical-scroll-proportion="0.4633731">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="63" selection-start="405" selection-end="405" vertical-scroll-proportion="0.42728904">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/CXFDocumentServiceService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="56" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42095238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Documents.wsdl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="55" selection-start="1490" selection-end="1490" vertical-scroll-proportion="0.70857143">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DocumentService_DocumentPort_Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="44" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.7475915">
+        <state line="28" column="75" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.54578096">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/InstallCert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1984" selection-end="1984" vertical-scroll-proportion="-1.965318">
+        <state line="63" column="28" selection-start="2560" selection-end="2560" vertical-scroll-proportion="0.5436364">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DocumentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="19" selection-start="3127" selection-end="3127" vertical-scroll-proportion="0.52473116">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/DocumentServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="33" selection-start="1129" selection-end="1129" vertical-scroll-proportion="-10.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Documents.wsdl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="20" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.9492386">
+          <folding />
         </state>
       </provider>
     </entry>

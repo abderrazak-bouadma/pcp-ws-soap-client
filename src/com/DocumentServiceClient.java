@@ -7,8 +7,6 @@ package com;
  */
 
 import javax.xml.namespace.QName;
-import java.io.File;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -16,43 +14,33 @@ import java.net.URL;
  * 2013-07-30T14:19:03.589+02:00
  * Generated source version: 2.7.5
  */
-public final class DocumentService_DocumentPort_Client {
+public final class DocumentServiceClient {
 
     private static final QName SERVICE_NAME = new QName("documentTarget", "CXFDocumentServiceService");
 
-    private DocumentService_DocumentPort_Client() {
+    private DocumentServiceClient() {
     }
 
     public static void main(String args[]) throws java.lang.Exception {
 
         URL wsdlURL = CXFDocumentServiceService.WSDL_LOCATION;
 
-        if (args.length > 0 && args[0] != null && !"".equals(args[0])) {
-            File wsdlFile = new File(args[0]);
-            try {
-                if (wsdlFile.exists()) {
-                    wsdlURL = wsdlFile.toURI().toURL();
-                } else {
-                    wsdlURL = new URL(args[0]);
-                }
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            }
-        }
-
         CXFDocumentServiceService ss = new CXFDocumentServiceService(wsdlURL, SERVICE_NAME);
         DocumentService port = ss.getDocumentPort();
 
         System.out.println("Invoking download...");
-        java.lang.String _download_documentId = "d121df7d-fa0e-4b36-a9c1-6541fe1104d8";
+        java.lang.String _download_documentId = "9b0fba9b-1111-46a5-892c-1deb9f91e61b";
         com.DocumentContentVO download = port.download(_download_documentId);
         System.out.println("download.result=" + download);
 
+        /*
         System.out.println("Invoking sign...");
         java.lang.String _sign_documentId = "";
         java.lang.String _sign_pin = "";
         boolean _sign__return = port.sign(_sign_documentId, _sign_pin);
         System.out.println("sign.result=" + _sign__return);
+        */
+
 
         System.exit(0);
     }
